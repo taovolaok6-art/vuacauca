@@ -1,0 +1,22 @@
+{
+  "name": "khe-suoi-thai-co-3d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node server/index.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "npm run build && node server/index.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "ws": "^8.18.3",
+    "tiktok-live-connector": "^2.5.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
